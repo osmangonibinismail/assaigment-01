@@ -124,7 +124,8 @@
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
-    text-align: center;background-color: antiquewhite;
+    text-align: center;
+    background-color: antiquewhite;
     padding-top: 100px;
 }
 .section-three-title{
@@ -146,4 +147,54 @@
     border: none;
     margin-top: 48px;
     margin-bottom: 126px;
+}
+.section-six-content{
+    max-width: 1600px;
+    margin: 120px;
+    text-align: center;
+    background-color: antiquewhite;
+    background-size: 100% 100%;
+}
+.section-six-image{
+    max-width: 200px;
+    height: 150px;
+    background-size: 100%;
+    flex-shrink: 0;
+    padding-top: 50px;
+}
+.section-six-title{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-top: 40px;
+}
+.section-six-info{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 22px;
+}
+.section-six-input{
+    padding: 100px;
+    margin-top: 48px;
+}
+.section-six-email{
+    width: 648px;
+    height: 72px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+.section-six-btn{
+    width: 210px;
+    height: 72px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
 }

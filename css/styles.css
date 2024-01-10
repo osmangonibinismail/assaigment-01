@@ -9,7 +9,6 @@
     max-width: 1600px;
     margin: 120px;
     display: flex;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgbaima(0, 0, 0, 0.5)), url(../resource/Banner\ Image.png); */
     background-image: url(../resource/Banner\ Image.png);
     position: relative;
     background-size: 100% 100%;
@@ -67,4 +66,84 @@
     padding-bottom: 30px;
     text-align: center;
     padding-top: 48px;
+}
+.section-Two{
+    max-width: 1600px;
+    margin: 120px;
+    display: flex;
+    background-image: url(../resource/Vectorrr.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+    justify-content: space-between;
+}
+.section-two-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    max-width: 642px;
+    padding-top: 126px;
+    padding-left: 126px;
+}
+.section-two-info{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 697px;
+    padding-left: 126px;
+    padding-top: 24px;
+}
+.section-two-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 158px;
+    margin-bottom: 142px;
+    background: none;
+    border: none;
+    margin-top: 48px;
+}
+.section-two-2024{
+    margin-top: 68px;
+    margin-right: 138px;
+}
+.section-three-content{
+    max-width: 1600px;
+    margin: 120px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;background-color: antiquewhite;
+    padding-top: 100px;
+}
+.section-three-title{
+    color: #F00;
+}
+.section-three-btn{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 48px;
+    margin-bottom: 126px;
 }
